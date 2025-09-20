@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 
@@ -7,7 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     <nav>
       <router-link to="/">Главная</router-link> |
-      <router-link to="/about">О сайте</router-link> |
+      <router-link to="/about">О проекте</router-link> |
       <router-link :to="{ name: 'User', params: { id: 42 } }">Пользователь 42</router-link>
     </nav>
 

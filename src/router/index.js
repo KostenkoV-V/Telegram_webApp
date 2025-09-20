@@ -10,8 +10,9 @@ const routes = [
 
   // динамический маршрут с параметром :id
   { path: '/user/:id', name: 'User', component: User, props: true },
-  // можно добавить "not found"
   
+  // можно добавить "not found"
+
   { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 
