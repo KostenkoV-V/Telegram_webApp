@@ -2,7 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
-<!-- src/App.vue -->
+
 <template>
   <div>
     <nav>
@@ -13,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <hr />
 
-    <!-- сюда подставляется текущий компонент (маршрут) -->
+  
     <router-view />
   </div>
 </template>

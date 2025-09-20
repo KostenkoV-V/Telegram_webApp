@@ -1,6 +1,6 @@
-<!-- src/views/User.vue -->
+
 <script setup>
-defineProps({ id: String }) // props: true в маршруте передаёт id сюда
+defineProps({ id: String }) 
 </script>
 
 <template>

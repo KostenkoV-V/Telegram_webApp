@@ -1,4 +1,4 @@
-<!-- src/views/About.vue -->
+
 <template>
   <div>
     <h1>О сайте</h1>
